@@ -1,6 +1,8 @@
 var centerX=canvas.width/2;
 var centerY=canvas.height/2;
 
+var counter=0;
+
 var turtle=new Turtle(centerX,centerY);
 
 function drawStar(size) {
@@ -12,6 +14,10 @@ function drawStar(size) {
 }
 
 function render() {
+
+  setFill("#00000010");
+  fillRect(0,0,canvas.width,canvas.height);
+  
   var size = Math.floor(Math.random() * 50);
 
   var r = Math.floor(Math.random() * 256);
@@ -28,6 +34,7 @@ function render() {
   );
 
   drawStar(size);
+  
 }
 
 setInterval(render,1000/60);
