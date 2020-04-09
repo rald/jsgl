@@ -1,1 +1,3 @@
 # jsgl
+
+javascript graphics library
