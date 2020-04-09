@@ -1,8 +1,6 @@
 var centerX=canvas.width/2;
 var centerY=canvas.height/2;
 
-var counter=0;
-
 var turtle=new Turtle(centerX,centerY);
 
 function drawStar(size) {
