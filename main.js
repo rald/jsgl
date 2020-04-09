@@ -3,8 +3,6 @@ var centerY=canvas.height/2;
 
 var turtle=new Turtle(centerX,centerY);
 
-setStroke("#ffffff");
-
 function drawStar(size) {
   turtle.heading=0;
   for(var i=0;i<5;i++) {
