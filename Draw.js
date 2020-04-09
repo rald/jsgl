@@ -35,7 +35,6 @@ function render() {
       colorIndex=i;
     }
   }
-  setStroke("#ffffff");
   drawRect(colorIndex*size+cx+4,cy+4,size-8,size-8);
   
   if (isMouseDown) {
