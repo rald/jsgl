@@ -11,7 +11,7 @@ function drawStar(size) {
   }
 }
 
-function render() {
+function animate() {
 
   setFill("#00000010");
   fillRect(0,0,canvas.width,canvas.height);
@@ -33,6 +33,8 @@ function render() {
 
   drawStar(size);
   
+  window.requestAnimationFrame(animate);
+  
 }
 
-setInterval(render,1000/60);
+animate();

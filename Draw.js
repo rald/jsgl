@@ -13,7 +13,7 @@ function inRect(x0,y0,x1,y1,w,h) {
 
 function render() {
   
-  var size = 64;
+  var size = 32;
   
   setLineWidth(1);  
   setStroke("#ffffff");
